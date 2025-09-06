@@ -1,0 +1,20 @@
+.titulo2{
+    padding-top: 32px;
+}
+
+.textos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.erro, .mensagem_erro{
+    font-size: 300px;
+    color: var(--red);
+    font-weight: bold;
+}
+
+.mensagem_erro{
+    font-size: 24px;
+}
