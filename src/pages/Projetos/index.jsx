@@ -23,6 +23,8 @@ function Projetos() {
     return (
         <>
             <Header />
+            
+            <Container>
                 <section className={styles.projetos}>
                     {
                         repositories.length > 0 ? (
@@ -43,6 +45,8 @@ function Projetos() {
                         )
                     }
                 </section>
+            </Container>
+            
             <Footer />
         </>
     )
