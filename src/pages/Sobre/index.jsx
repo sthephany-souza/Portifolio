@@ -7,7 +7,7 @@ import { DiMysql } from "react-icons/di";
 import { VscVscode } from "react-icons/vsc";
 import { BsArrowRight } from "react-icons/bs"
 
-import styles from './Sobre.module.css'
+import styles from './sobre.module.css'
 
 const Sobre = () => {
     return (
