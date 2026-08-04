@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
@@ -8,7 +8,7 @@ import NotFound from "./pages/NotFound";
 
 function AppRoutes() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Home />}></Route>
                 <Route path="/sobre" element={<Sobre />}></Route>
@@ -16,7 +16,7 @@ function AppRoutes() {
                 <Route path="/contatos" element={<Contatos />}></Route>
                 <Route path="*" element={<NotFound />}></Route>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
