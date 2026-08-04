@@ -1,8 +1,9 @@
-import styles from './cards.module.css'
-import { FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa'
-import { BsArrowRight } from 'react-icons/bs'
+import styles from "./cards.module.css"
 
-function Cards() {
+import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa"
+import { BsArrowRight } from "react-icons/bs"
+
+function Cards({ name, description, html_url }) {
     return (
         <section className={styles.card}>
             <h3>{name}</h3>
@@ -15,11 +16,7 @@ function Cards() {
                     <FaReact />
                 </div>
 
-                <a
-                    href={html_url}
-                    className={styles.botao}
-                    target="_blank"
-                    rel="noopener noreferrer">
+                <a href={html_url} target="_blank" rel="nopenner noreferrer" className={styles.botao}>
                     <BsArrowRight />
                 </a>
             </div>
