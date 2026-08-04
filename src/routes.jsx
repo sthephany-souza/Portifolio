@@ -8,7 +8,7 @@ import NotFound from "./pages/NotFound";
 
 function AppRoutes() {
     return (
-        <BrowserRouter basename="/`Portifolio">
+        <BrowserRouter basename="/Portifolio">
             <Routes>
                 <Route path="/" element={<Home />}></Route>
                 <Route path="/sobre" element={<Sobre />}></Route>
