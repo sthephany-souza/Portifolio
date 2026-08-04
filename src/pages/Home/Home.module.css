@@ -18,7 +18,7 @@
 }
 
 .home span{
-    color: var(--red);
+    color: var(--blue);
 }
 
 .btn {
@@ -37,7 +37,7 @@
 }
 
 .btn_red {
-    background-color: var(--red);
+    background-color: var(--blue);
     color: var(--white);
     transition: 0.5s;
 }
